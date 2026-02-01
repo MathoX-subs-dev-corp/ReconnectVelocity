@@ -39,6 +39,7 @@ tasks {
     }
     shadowJar {
         mergeServiceFiles()
+        relocate("org.yaml.snakeyaml", "com.mattmx.reconnect.libs.org.yaml.snakeyaml")
     }
     runVelocity {
         velocityVersion(libs.versions.velocity.get())
