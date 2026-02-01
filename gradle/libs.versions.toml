@@ -1,8 +1,7 @@
 [versions]
 
-updateVersions = "0.51.0"
-shadow = "8.1.8"
-velocity= "3.3.0-SNAPSHOT"
+shadow = "9.3.1"
+velocity= "3.5.0-SNAPSHOT"
 runPaper = "2.2.4"
 litebans = "0.5.0"
 luckperms = "5.4"
@@ -29,6 +28,5 @@ storage-hikari = { module = "com.zaxxer:HikariCP", version.ref = "hikari" }
 
 [plugins]
 
-updateDeps = { id = "com.github.ben-manes.versions", version.ref = "updateVersions" }
-shadow = { id = "io.github.goooler.shadow", version.ref = "shadow" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
 runVelocity = { id = "xyz.jpenilla.run-velocity", version.ref = "runPaper" }
